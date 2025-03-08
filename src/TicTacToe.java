@@ -118,6 +118,7 @@ public class TicTacToe {
         if (turns == 9) {
             textLabel.setText("It's a Tie!");
             gameOver = true;
+            highlightTie();
         }
     }
 
@@ -128,6 +129,14 @@ public class TicTacToe {
         }
         textLabel.setText(currentPlayer + " is the winner!");
         gameOver = true;
+    }
+
+    void highlightTie() {
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < 3; c++) {
+                board[r][c].setBackground(Color.ORANGE);
+            }
+        }
     }
 
     void resetGame() {
@@ -144,4 +153,7 @@ public class TicTacToe {
         turns = 0;
     }
 
+    public static void main(String[] args) {
+        new TicTacToe();
+    }
 }
