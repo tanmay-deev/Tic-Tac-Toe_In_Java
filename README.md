@@ -35,14 +35,5 @@
    - Reset the board, game state, and UI elements when the restart button is clicked.
    - Allowed seamless replaying of the game without restarting the application.
 
-#### Features Used in This Program
-- Java Swing (`JFrame`, `JPanel`, `JButton`, `JLabel`)
-- Event Handling (`ActionListener`)
-- Grid-based UI Layout (`GridLayout`)
-- Conditional Logic for Win Detection
-- Dynamic UI Updates Based on Game Progress
-- Basic Object-Oriented Programming Principles
-- **Restart Button for Game Replay**
-
 This project helped me reinforce my understanding of Java Swing, event handling, and logical thinking for game development. I also gained experience in debugging common issues related to UI programming.
 
